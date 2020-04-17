@@ -1,0 +1,198 @@
+#resulteShow::before{
+    content: '最近一次紀錄 : ';
+}
+.history::before{
+    content: '歷史紀錄 : ';
+}
+.resulte1::before,
+.resulte2::before,
+.resulte3::before,
+.resulte4::before,
+.resulte5::before,
+.resulte6::before,
+.resulte7::before,
+.resulte8::before{
+    display: inline-block;
+    min-width: 200px;
+}
+.resulte1::before{
+    content: '非常嚴重的體重不足';
+}
+.resulte2::before{
+    content: '嚴重體重不足';
+}
+.resulte3::before{
+    content: '體重過輕';
+}
+.resulte4::before{
+    content: '健康體重';
+}
+.resulte5::before{
+    content: '體重過重';
+}
+.resulte6::before{
+    content: '中等肥胖';
+}
+.resulte7::before{
+    content: '嚴重肥胖';
+}
+.resulte8::before{
+    content: '非常嚴重肥胖';
+}
+.history div span{
+    cursor: pointer;
+}
+
+.resulte1{
+    border-left: 7px solid #ff001a;
+}
+.resulte2{
+    border-left: 7px solid #ff6925;
+}
+.resulte3{
+    border-left: 7px solid #00b9f5;
+}
+.resulte4{
+    border-left: 7px solid #65db52;
+}
+.resulte5{
+    border-left: 7px solid #ff9840;
+}
+.resulte6{
+    border-left: 7px solid #ff6925;
+}
+.resulte7{
+    border-left: 7px solid #ff6925;
+}
+.resulte8{
+    border-left: 7px solid #ff001a;
+}
+
+
+
+/* style  */
+*{
+    box-sizing: border-box;
+    font-family: 微軟正黑體;
+}
+html,body{
+    margin: 0;
+    font-size: 20px;
+    height: 100%;
+}
+label{
+    color: #FFD366;
+}
+.logo{
+    margin-right: 100px;
+}
+.top{
+    height: 300px;
+    background: #424242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=text]{
+    border: 3px solid #FFD366;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #808080;
+    background-color: #646464;
+    font-size: 20px;
+}
+.click{
+    border: none;
+    width: 120px;
+    height: 120px;
+    border-radius: 99px;
+    background-color: #FFD366;
+    color: #646464;
+    font-size: 22px;
+    margin-left: 50px;
+}
+
+.list{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 50px 0;
+}
+.history{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 30px 0;
+}
+.history div{
+    background-color:white;
+    padding: 15px 30px;
+    margin: 10px 0;
+}
+.history div div{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.history div span{
+    float: right;
+    transition-duration: 0.3s;
+}
+.history div span:hover{
+    transition-duration: 0.3s;
+    color: red;
+}
+.notice1,
+.notice2,
+.notice3{
+    width: 120px;
+}
+.notice1::before,
+.notice2::before,
+.notice3::before,
+.notice4::before{
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 10px;
+    transform: translate(0,-2px);
+    opacity: 0.7;
+}
+.notice1::before{
+    content: '身高';
+}
+.notice2::before{
+    content: '體重';
+}
+.notice3::before{
+    content: 'BMI';
+}
+.notice4::before{
+    content: '日期';
+}
+.allClear{
+    padding: 15px 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #646464;
+    border:5px solid #FFD366;
+}
+footer{
+    height: calc( 100% - 756px );
+}
+.f1{
+    text-align: center;
+    background-color: #FFD366;
+    padding: 50px 0;
+}
+.f1 img{
+    width: 80px;
+}
+.f2{
+    display: block;
+    height: 100%;
+    background-color: #646464;
+}
